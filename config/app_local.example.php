@@ -91,4 +91,9 @@ return [
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
         ],
     ],
+
+    'YoutubeConfig' => [
+        'api_key' => 'INSERT_YOUR_API_KEY',
+        'endpoint' => 'https://www.googleapis.com/youtube/v3'
+    ]
 ];
